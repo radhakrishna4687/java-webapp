@@ -6,7 +6,6 @@ metadata:
   name: java-web-app-test  
 spec:
   replicas: 2
-  selector:
   template:
     metadata:
       labels:
@@ -14,9 +13,10 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: radhakrishna4687/test-java-web-app:0.1
+          image: radhakrishna4687/java-test-web-app
           ports:
             - containerPort: 8080
+              name: java-app
 ---            
 #node port
 apiVersion: v1
