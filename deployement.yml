@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: radhakrishna4687/test-server-123
+          image: radhakrishna4687/test-java-web-app:0.1
           ports:
             - containerPort: 8080
 ---            
