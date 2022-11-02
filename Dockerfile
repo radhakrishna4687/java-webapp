@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 
 ENV GITHUB_BRANCH=java-servlet-login-and-display
 ENV TOMCAT_VERSION=8.5.50
