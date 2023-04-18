@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 
 ENV GITHUB_BRANCH=java-servlet-login-and-display
 ENV TOMCAT_VERSION=8.5.50
